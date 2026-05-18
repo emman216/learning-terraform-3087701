@@ -3,7 +3,7 @@ variable "instance_type" {
   default     = "t3.nano"
 }
 
-variable "aws_ami" "app_ami" {
+variable "ami_filter" {
   description = "Name filter and owner for AMI"
 
   type = object ({
